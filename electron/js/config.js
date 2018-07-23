@@ -69,7 +69,7 @@ const config = {
     PRIVACY: '/privacy/',
   },
 
-  VERSION: pkg.version,
+  VERSION: pkg.version || 'dev',
 
   WINDOW: {
     ABOUT: {

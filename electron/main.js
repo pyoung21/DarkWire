@@ -68,6 +68,8 @@ const ICON_PATH = path.join(APP_PATH, 'img', ICON);
 let main;
 let isQuitting = false;
 
+app.setVersion(config.VERSION);
+
 // IPC events
 const bindIpcEvents = () => {
   ipcMain.on(EVENT_TYPE.ACTION.SAVE_PICTURE, (event, fileName, bytes) => {
