@@ -1,0 +1,4 @@
+webview = document.getElementsByClassName('Webview');
+webview[0].addEventListener('dom-ready', function () {
+    webview[0].insertCSS('#center-column,#conversation-title-bar>*,.controls-center,.controls-left,.controls-right,div>.controls-center,span>.context-menu{background-color:#202020; color:#fff}ul.ephemeral-timer{background-color:#202020!important;color:#fff!important}li.ephemeral-timer-bullet{color:#0fc!important}span.context-menu,span.message-status,time{background-color:#202020!important;color:#fff!important}.main-accent-color-7 .ephemeral-timer-bullet::before{background-color:#0fc!important}div.detail-view-main,footer.detail-view-footer,header.detail-view-header{background-color:#202020!important;color:#fff!important;}img.detail-view-image{max-width:initial!important} .content-titlebar { background-color: #202020 !important; } .preferences-titlebar { background-color: #202020 !important; } .preferences-account-user-data{color: white;}')
+});
